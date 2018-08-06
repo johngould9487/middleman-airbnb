@@ -1,0 +1,42 @@
+ssaunier:
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  rating: 4
+johngould9487:
+  name: "John's home"
+  description: "Small flat in Wimbledon"
+  city_name: "Wimbledon, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 6
+luizalimapinto:
+  name: Luiza's home
+  description: "Nice flat in Piccadilly"
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 5
+andylevis:
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  rating: 4
+beatriceolivera1999:
+  name: "John's home"
+  description: "Small flat in Wimbledon"
+  city_name: "Wimbledon, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 6
+ben_herring:
+  name: Luiza's home
+  description: "Nice flat in Piccadilly"
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 5

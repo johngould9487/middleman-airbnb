@@ -1,5 +1,5 @@
 activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
+  prefix.browsers = 'last 2 versions'
 end
 
 activate :sprockets
@@ -19,4 +19,8 @@ end
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
+end
+
+%w[ssaunier johngould9487 luizalimapinto andylevis beatriceolivera1999 ben_herring].each do |name|
+  proxy "/flats/#{name}.html", '/flats/show.html', locals: { owner: name }, ignore: true
 end
